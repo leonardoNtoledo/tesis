@@ -1,9 +1,6 @@
-/*
-* BookMedik Database
-* @author Evilnapsis
-*/
-create database bookmedik;
-use bookmedik; 
+
+create database centermedicine;
+use centermedicine; 
 set sql_mode='';
 create table user (
 	id int not null auto_increment primary key,
